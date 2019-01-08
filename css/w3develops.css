@@ -1,0 +1,48 @@
+.hidden {
+    display: none;
+}
+
+section#services #btnHide{
+    margin:auto;
+    display:block;
+}
+
+.black-background {
+    background-color:black !important;
+}
+
+iframe#googleForm {
+    height:800em;
+    width:100%;
+}
+
+nav#mainNav .dropdown-item.dropdown-list-item:hover,
+nav#mainNav .dropdown-item.dropdown-list-item:focus,
+nav#mainNav .dropdown-item.dropdown-list-item:active {
+    background-color: #fed136;
+}
+
+.footer{
+    background-color: #DDDDDD;
+    background-attachment: fixed;
+    position: relative;
+}
+.heart{
+    color: #FF3B30;
+}
+.footer .overlayer{
+    background-color: rgba(27, 27, 27, 0.7);
+    position: relative;
+}
+.footer .credits {
+    padding: 20px 0 15px;
+    text-align: center;
+    color: #EEE;
+}
+.footer .credits a{
+    color: #FFFFFF;
+}
+
+.fa-heart:before {
+    content: "\f004";
+}
